@@ -1,0 +1,534 @@
+footer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #0A3D71;
+    padding-top: 200px;
+}
+footer .footer-top{
+    text-align: center;
+    margin-bottom: 100px;
+}
+footer .footer-top .sub-title{
+    color: #39C1F4;
+    font-size: 17px;
+    letter-spacing: 5px;
+}   
+footer .footer-top .title{
+    color: #fff;
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+footer .footer-top .button{
+    display: flex;
+}
+footer .footer-top .button a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    border: 1px solid #39C1F4;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+footer .footer-top .button a:hover{
+    overflow: hidden;
+}
+footer .footer-top .button a::before{
+    content: '';
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #39C1F4;
+    transition: all .50s ease;
+    overflow: hidden;
+    border-radius: 50px;
+}
+footer .footer-top .button a:hover::before{
+    width: 100%;
+    transition: all .50s ease;
+    overflow: hidden;
+}
+footer .footer-middle{
+    margin-bottom: 100px;
+}
+footer .footer-middle .brand-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-quick-menu{
+    padding-bottom: 100px;
+}
+footer .footer-quick-menu ul li{
+    list-style: none;
+}
+footer .footer-quick-menu a{
+    text-decoration: none;
+}
+footer .footer-quick-menu .contact .title{
+    color: #fff;
+    font-size: 23px;
+    transition: all .30s ease;
+}
+footer .footer-quick-menu .contact .title:hover{
+    text-shadow: 5px 5px 5px #FFF;
+}
+footer .footer-quick-menu .contact .number a{
+    font-size: 17px;
+    color: #9EBAD8;
+    transition: all .30s ease;
+}
+footer .footer-quick-menu .contact .number a:hover{
+    margin-left: 12px;
+}
+footer .footer-quick-menu .contact .address{
+    transition: all .30s ease;
+}
+footer .footer-quick-menu .contact .address:hover{
+    margin-left: 12px;
+}
+footer .footer-quick-menu .contact .address a{
+    font-size: 15px;
+    color: #9EBAD8;
+}
+footer .footer-quick-menu .contact .address-button{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+footer .footer-quick-menu .contact .address-button a{
+    font-size: 15px;
+    color: #39C1F4;
+    border-radius: 50px;
+    border: 1px solid #39C1F4;
+    padding: 10px 20px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+footer .footer-quick-menu .contact .address-button a::before{
+    content: '';
+    width: 0%;
+    height: 100%;
+    background-color: #39C1F4;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .50s ease;
+}
+footer .footer-quick-menu .contact .address-button:hover a{
+    color: #FFF;   
+}
+footer .footer-quick-menu .contact .address-button:hover a::before{
+    width: 100%;
+}
+
+footer .footer-quick-menu .quick-menu li{
+    margin-bottom: 5px;
+
+}
+
+footer .footer-quick-menu .quick-menu li a{
+    font-size: 16px;
+    color: #B6CEE8;
+    font-weight: 500;
+    transition: all .15s linear;
+}
+footer .footer-quick-menu .quick-menu li:hover a{
+    color: #FFF ;
+    text-shadow: 0px 0px 1px #FFF;
+}
+footer .footer-quick-menu .quick-menu-2 li a{
+    font-size: 14px;
+    color: #7093B9;
+}
+footer .footer-quick-menu .quick-menu-2 li a{
+    transition: all .30s ease;
+}
+footer .footer-quick-menu .quick-menu-2 li a:hover{
+    color: #FFF;
+}
+
+
+
+footer .footer-bottom{
+    border-top: 1px solid #28629D;
+    position: relative;
+    z-index: 5;
+    padding: 10px;
+}
+footer .footer-bottom .field-1{
+    display: flex;
+    align-items: center;
+}
+footer .footer-bottom .field-1 p{
+    color: #426A93;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+} 
+footer .footer-bottom .field-2 .signature{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} 
+footer .footer-bottom .field-2 .signature .penta_logo{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    min-width: 125px;
+}
+footer .footer-bottom .field-2 .signature .penta_logo .penta_logo_text{
+    max-width: 82px;
+    text-decoration: none;
+    color: #426A93;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: end;
+    text-transform: uppercase;
+    opacity: 1;
+    display: flex;
+    margin-right: 5px;
+}
+footer .footer-bottom .field-2 .signature .penta_logo:hover .penta_logo_text{
+    max-width: 0px !important;
+    opacity: 0 !important;
+    transition: opacity .3s ease,
+    max-width .3s ease;
+    transition-property: opacity , max-width;
+    transition-duration: 0.3s ,0.3s ;
+    transition-timing-function:ease,ease;
+    transition-delay:0s,0s;
+}
+footer .footer-bottom .field-2 .signature .penta_logo a{
+    text-decoration: none;
+}
+footer .footer-bottom .field-2 .signature .penta_logo .penta_logo_brand{
+    display: flex;
+    align-items: center;
+}
+footer .footer-bottom .field-2 .signature .penta_logo .penta_logo_brand .penta_logo_img{
+    width: 36px;
+    height: 34px;
+    position: relative;
+    filter: brightness(2);
+}
+footer .footer-bottom .field-2 .signature .penta_logo .penta_logo_brand .penta_logo_img .penta_logo_p{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1);
+}
+
+footer .footer-bottom .field-2 .signature .penta_logo .penta_logo_brand .penta_logo_img .penta_logo_y{
+    display: block;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    animation: penta_y 2s linear infinite;
+    transform: scale(0.8);
+    transform-style: preserve-3d;
+}
+@keyframes penta_y{
+    from{
+        transform: scale(0.85) rotateY(0deg) translateZ(0) translate3d(0,0,0) perspective(1px);    
+    }
+    to{
+        transform: scale(0.85) rotateY(-360deg) translateZ(0) translate3d(0,0,0) perspective(1px);    
+    }
+}
+footer .footer-bottom .field-2 .signature .penta_logo .penta_logo_brand strong{
+    overflow: hidden;
+    max-width: 0;
+    margin-left: 5px;
+    display: block;
+    color: #426A93 !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    transform: max-width .3s ease;
+    transition-property: max-width;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+footer .footer-bottom .field-2 .signature .penta_logo:hover .penta_logo_brand strong{
+    max-width: 75px !important;
+}
+
+
+@media screen and (min-width:0px) and (max-width:375px) {
+    footer{
+        padding-top: 50px;
+    }
+    footer .footer-top .sub-title{
+        font-size: 12px;
+    }
+    footer .footer-top .title{
+        margin-top: 25px;
+        font-size: 30px;
+    }
+    footer .footer-top .button a{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+    footer ul{
+        padding-left: unset !important;
+        text-align: center;
+    }
+    footer .footer-quick-menu div{
+        margin-bottom: 50px;
+    }
+    footer .footer-quick-menu div:last-child{
+        margin-bottom: 0px;
+    }
+    footer .footer-quick-menu .address-button{
+        margin: auto;
+    }
+    footer .footer-quick-menu .contact .address-button a{
+        margin: auto;
+    }
+  
+}   
+
+
+@media screen and (min-width:375px) and (max-width:425px) {
+    footer{
+        padding-top: 50px;
+    }
+    footer .footer-top .sub-title{
+        font-size: 12px;
+    }
+    footer .footer-top .title{
+        margin-top: 25px;
+        font-size: 30px;
+    }
+    footer .footer-top .button a{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+    footer ul{
+        padding-left: unset !important;
+        text-align: center;
+    }
+    footer .footer-quick-menu div{
+        margin-bottom: 50px;
+    }
+    footer .footer-quick-menu div:last-child{
+        margin-bottom: 0px;
+    }
+    footer .footer-quick-menu .address-button{
+        margin: auto;
+    }
+    footer .footer-quick-menu .contact .address-button a{
+        margin: auto;
+    }
+  
+  
+}   
+
+@media screen and (min-width:425px) and (max-width:480px) {
+    footer{
+        padding-top: 50px;
+    }
+    footer .footer-top .sub-title{
+        font-size: 12px;
+    }
+    footer .footer-top .title{
+        margin-top: 25px;
+        font-size: 30px;
+    }
+    footer .footer-top .button a{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+    footer ul{
+        padding-left: unset !important;
+        text-align: center;
+    }
+    footer .footer-quick-menu div{
+        margin-bottom: 50px;
+    }
+    footer .footer-quick-menu div:last-child{
+        margin-bottom: 0px;
+    }
+    footer .footer-quick-menu .address-button{
+        margin: auto;
+    }
+    footer .footer-quick-menu .contact .address-button a{
+        margin: auto;
+    }
+  
+}   
+@media screen and (min-width:480px) and (max-width:600px) {
+    footer{
+        padding-top: 50px;
+    }
+    footer .footer-top .sub-title{
+        font-size: 12px;
+    }
+    footer .footer-top .title{
+        margin-top: 25px;
+        font-size: 35px;
+    }
+    footer .footer-top .button a{
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top:12px;
+        padding-bottom: 12px;
+        font-size: 13px;
+    }
+    footer ul{
+        padding-left: unset !important;
+        text-align: center;
+    }
+    footer .footer-quick-menu div{
+        margin-bottom: 50px;
+    }
+    footer .footer-quick-menu div:last-child{
+        margin-bottom: 0px;
+    }
+    footer .footer-quick-menu .address-button{
+        margin: auto;
+    }
+    footer .footer-quick-menu .contact .address-button a{
+        margin: auto;
+    }
+  
+  
+}  
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    footer{
+        padding-top: 50px;
+    }
+    footer .footer-top .sub-title{
+        font-size: 12px;
+    }
+    footer .footer-top .title{
+        margin-top: 25px;
+        font-size: 35px;
+    }
+    footer .footer-top .button a{
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top:12px;
+        padding-bottom: 12px;
+        font-size: 13px;
+    }
+    footer ul{
+        padding-left: unset !important;
+        text-align: center;
+    }
+    footer .footer-quick-menu div{
+        margin-bottom: 50px;
+    }
+    footer .footer-quick-menu div:last-child{
+        margin-bottom: 0px;
+    }
+    footer .footer-quick-menu .address-button{
+        margin: auto;
+    }
+    footer .footer-quick-menu .contact .address-button a{
+        margin: auto;
+    }
+  
+  
+}  
+@media screen and (min-width:768px) and (max-width:900px) {
+    footer{
+        padding-top: 50px;
+    }
+    footer .footer-top .sub-title{
+        font-size: 12px;
+    }
+    footer .footer-top .title{
+        margin-top: 25px;
+        font-size: 35px;
+    }
+    footer .footer-top .button a{
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top:12px;
+        padding-bottom: 12px;
+        font-size: 13px;
+    }
+    footer ul{
+        padding-left: unset !important;
+        text-align: center;
+    }
+    footer .footer-quick-menu div{
+        margin-bottom: 50px;
+    }
+    footer .footer-quick-menu div:last-child{
+        margin-bottom: 0px;
+    }
+    footer .footer-quick-menu .address-button{
+        margin: auto;
+    }
+    footer .footer-quick-menu .contact .address-button a{
+        margin: auto;
+    }
+  
+} 
+
+@media screen and (min-width:900px) and (max-width:1024px) {
+    footer{
+        padding-top: 50px;
+    }
+    footer .footer-top .sub-title{
+        font-size: 12px;
+    }
+    footer .footer-top .title{
+        margin-top: 25px;
+        font-size: 35px;
+    }
+    footer .footer-top .button a{
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top:12px;
+        padding-bottom: 12px;
+        font-size: 13px;
+    }
+    footer ul{
+        padding-left: unset !important;
+        text-align: center;
+    }
+    footer .footer-quick-menu div{
+        margin-bottom: 50px;
+    }
+    footer .footer-quick-menu div:last-child{
+        margin-bottom: 0px;
+    }
+    footer .footer-quick-menu .address-button{
+        margin: auto;
+    }
+    footer .footer-quick-menu .contact .address-button a{
+        margin: auto;
+    }
+  
+  
+}
